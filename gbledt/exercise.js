@@ -36,7 +36,7 @@ exercise.findBiggerSalaries = function(){
         }
     }
 
-    // rEturn the final array of larger salaries
+    // Return the final array of larger salaries
     return largerSals
 };
 
