@@ -25,7 +25,7 @@ exercise.findBiggerSalaries = function(){
 
     for (var i = 0; i < exercise.salaries.length; i++){
         currentSal = Number(exercise.salaries[i][18]);
-        if (currentSal > exercise.salary){
+        if (exercise.largerSalary(currentSal)){
             largerSals.push(currentSal);
         }
     }
@@ -41,5 +41,10 @@ exercise.largerSalary = function largerSalary(item){
     //     Return a boolean (true/false) if item
     //     is larger than exercise.salary
     // ---------------------------------------------------
+    if (item > exercise.salary) {
+        return true;
+    } else {
+        return false;
+    }
 
 };
