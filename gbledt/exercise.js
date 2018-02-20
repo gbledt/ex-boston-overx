@@ -31,7 +31,8 @@ exercise.findBiggerSalaries = function(){
             numSal++;
         }
     }
-    return largerSals, numSal;
+    return largerSals
+    //return numSal;
 };
 
 // filter function
